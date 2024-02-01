@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #f9f9f9;
+    min-height: 900vh;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right:200px ;
+}
+.navigation a{
+    text-decoration: none;
+    color:#359381 ;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.navigation a:hover, 
+.navigation a.active{
+    background: #359381;
+    color:#f9f9f9;
+}
+.Parallax{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2) ;
+}
+.Parallax img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.sec{
+    position: relative;
+    padding: 100px;
+    height: 100vh;
+    background-color: #003329;
+    font-size: 1.2em;
+}
+.sec h2{
+    font-size: 2em;
+    color: #fff;
+    padding-bottom: 10px;
+    cursor:pointer;
+}
+.sec p{
+    color: #fff;
+    font-size: 1.2em;
+    font-family: cursive,'Playpen Sans';
+    /* font-family: 'Roboto', sans-serif; */
+}
+.random-img{
+    height: 250px;
+    width: 400px;
+    float: right;
+    position: sticky;
+    margin-right: -80px;
+    margin-top: -300px;
+}
+form{
+    color: #fff;
+    border: #fff solid 2px;
+    height: 500px;
+    width: 600px;
+    align-items: center;
+    float: right;
+    border-radius: 50px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+form div{
+   padding-left: 150px;
+}
+form h1{
+    padding-left: 165px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 60px;
+}
+form .container{
+    height: 30px;
+    width: 280px;
+    border-radius: 5px;
+}
+form  .Submit{
+    margin-left: 153px;
+    background-color:#fff;
+    color:#003329;
+    height:30px ;
+    width: 90px;
+    cursor: pointer;
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 10px;
+}
+form  .Submit:hover{
+    transition: all 0.5s;
+    background-color: silver;
+    color: black;
+}
+#contact-img{
+    height: 300px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.footer-content{
+   float: right;
+   margin-top: 80px;
+   margin-right: -10px;
+}
